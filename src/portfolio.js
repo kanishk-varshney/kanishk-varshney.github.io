@@ -21,12 +21,12 @@ const illustration = {
 
 const greeting = {
   username: "Kanishk Varshney",
-  title: "Hi all, I'm Kanishk",
+  title: "Hi, I'm Kanishk",
   subTitle: emoji(
-    "AI/ML Specialist | IIT Kanpur | Bridging Deep Tech & Scalable Impact | GenAI, MLOps, Geospatial AI | Passionate About Crafting Intelligent Systems 🧠⚙️A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "IIT Kanpur Spirit | Breathing AI into everyday life | GenAI, MLOps, Maps that learn to think | Designing systems that quietly outsmart the chaos 🧠"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1VSnBLDh6evYU_APshXA2OlXXS1nd1qj2/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12hHnOE6byNrRO3bZrDx-so4PYiGMbtXf/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -49,17 +49,17 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "What I do",
   subTitle:
-    "INSIGHT-HUNGRY DATA SCIENTIST WHO LIVES FOR PATTERNS & PREDICTIONS",
+    "Curious mind, chasing hidden shapes - weaving models and visions into clarity.",
   skills: [
     emoji(
-      "⚡ Researching, building, and shipping GenAI and ML solutions that work in the real world."
+      "⚡ Blend old and new data flows to keep insights fresh and decisions sharp."
     ),
     emoji(
-      "⚡ Deploy models and pipelines using third-party cloud platforms like AWS, GCP"
+      "⚡ Exploring, crafting, and releasing GenAI and ML that thrive beyond the lab."
     ),
     emoji(
-      "⚡ Develop scalable data science pipelines using both traditional and streaming architectures."
-    ),
+      "⚡ Keep models resilient, scalable, and alive in the wild."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -67,35 +67,27 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python",
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws",
-    },
-    {
-      skillName: "github",
+      skillName: "GitHub",
       fontAwesomeClassname: "fab fa-github",
     },
     {
-      skillName: "git",
-      fontAwesomeClassname: "fab fa-git-alt",
-    },
-    {
-      skillName: "sql-database",
+      skillName: "SQL",
       fontAwesomeClassname: "fas fa-database",
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws",
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire",
+      skillName: "GCP",
+      fontAwesomeClassname: "fab fa-google",
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker",
     },
   ],
@@ -112,11 +104,8 @@ const educationInfo = {
       logo: require("./assets/images/iitkLogo.png"),
       subHeader: "Bachelor of Technology in Computer Science and Engineering",
       duration: "August 2011 - June 2015",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ],
+      desc: "AI skills and leadership through hands-on projects and diverse collaborations.",
+      descBullets: [],
     },
   ],
 };
@@ -127,12 +116,12 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Machine/Deep Learning", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
+      Stack: "Generative AI", //Insert stack or technology you have experience in
+      progressPercentage: "75%", //Insert relative proficiency in percentage
     },
     {
-      Stack: "Generative AI",
-      progressPercentage: "70%",
+      Stack: "Machine/Deep Learning",
+      progressPercentage: "90%",
     },
     {
       Stack: "MLOps",
@@ -150,28 +139,22 @@ const workExperiences = {
     {
       role: "Manager/Staff Data Scientist",
       company: "AiDash",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      companylogo: require("./assets/images/aidashLogo.jpg"),
+      date: "Feb 2021 – Dec 2025",
+      desc: "Scaled AI efforts in mapping, massive image crunching, and smart annotation.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       ],
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Research Engineer",
+      company: "Netradyne",
+      companylogo: require("./assets/images/netradyneLogo.webp"),
+      date: "Oct 2016 – Apr 2020",
+      desc: "Applied deep learning to see what drivers miss - and verify who’s behind the wheel.",
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
+    
   ],
 };
 
@@ -213,7 +196,7 @@ const bigProjects = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -274,7 +257,7 @@ const achievementSection = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -285,18 +268,18 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
-    },
-    {
-      url: "https://kanishkvarshney.medium.com/fun-with-python-88d599ac07e1",
-      title: "Fun with Python",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
-    },
+    // {
+    //   url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
+    //   title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+    //   description:
+    //     "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?",
+    // },
+    // {
+    //   url: "https://kanishkvarshney.medium.com/fun-with-python-88d599ac07e1",
+    //   title: "Fun with Python",
+    //   description:
+    //     "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+    // },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -317,7 +300,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/",
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -330,7 +313,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -346,7 +329,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  number: "+91-8052526013",
   email_address: "varskann1993@gmail.com",
 };
 

@@ -1,11 +1,1 @@
-{
-  "data": {
-    "user": {
-      "name": "Kanishk Varshney",
-      "bio": "🚀 I teach computers to think—they mostly rebel. IIT Kanpur CS grad | Pushing code, pulling hair, and repeating. Here for laughs & endless commits.",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4751805?u=3add61d221525e1e4a38d6e7ff7ad36849b21998&v=4",
-      "location": "Bengaluru",
-      "pinnedItems": { "totalCount": 0, "edges": [] }
-    }
-  }
-}
+{"data":{"user":{"name":"Kanishk Varshney","bio":"🚀 I teach computers to think—they mostly rebel. IIT Kanpur CS grad | Pushing code, pulling hair, and repeating. Here for laughs & endless commits.","avatarUrl":"https://avatars.githubusercontent.com/u/4751805?u=3add61d221525e1e4a38d6e7ff7ad36849b21998&v=4","location":"Bengaluru","pinnedItems":{"totalCount":0,"edges":[]}}}}
