@@ -57,9 +57,7 @@ const skillsSection = {
     emoji(
       "⚡ Exploring, crafting, and releasing GenAI and ML that thrive beyond the lab."
     ),
-    emoji(
-      "⚡ Keep models resilient, scalable, and alive in the wild."
-    )
+    emoji("⚡ Keep models resilient, scalable, and alive in the wild."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -154,7 +152,6 @@ const workExperiences = {
       date: "Oct 2016 – Apr 2020",
       desc: "Applied deep learning to see what drivers miss - and verify who’s behind the wheel.",
     },
-    
   ],
 };
 
